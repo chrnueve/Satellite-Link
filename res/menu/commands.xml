@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.christian.satellitelink.CommandsActivity" >
+    <group android:id="@+id/ConnectCommands" android:visible="true" android:enabled="true">
+        <item android:id="@+id/PDPTester" android:title="Add PDP Tester"></item>
+        <item android:id="@+id/PDPContext" android:title="PDPContext"></item>
+        <item android:id="@+id/ContextActivator" android:title="Context Activator"></item>
+        <item android:id="@+id/dataPath" android:title="Open Data Path"></item>
+        <item android:id="@+id/disconnectCommand" android:title="Disconnect Command"></item>
+    </group>
+
+</menu>
